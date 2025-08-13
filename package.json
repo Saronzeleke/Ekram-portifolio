@@ -6,6 +6,7 @@
   "type": "module",
   "homepage": "https://yourusername.github.io/Ekram-portifolio",
   "scripts": {
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build"
