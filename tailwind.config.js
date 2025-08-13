@@ -8,19 +8,19 @@ export default {
   theme: {
     extend: {
       colors: {
-   puple:{
-  50: '#f3e5ff',  // Very light purple
-  100: '#e1c2ff', // Pastel purple
-  200: '#c79eff', // Soft purple
-  300: '#ad7bff', // Medium light purple
-  400: '#9359ff', // Vibrant purple
-  500: '#7a36ff', // Primary purple (strong)
-  600: '#6000ff', // Deep purple
-  700: '#4d00cc', // Dark purple
-  800: '#3a0099', // Very dark purple
-  900: '#260066', // Near-black purple
-  950: '#130033', // Almost black with purple undertone
-},
+   gold: {
+          50:  '#fff3cf',
+          100: '#ffe7a0',
+          200: '#9bf732ff',
+          300: '#a30a96c9',
+          400: '#a30a96c9',
+          500: '#a30a96c9',
+          600: '#a30a96c9',
+          700: '#a30a96c9',
+          800: '#a30a96c9',
+          900: '#a30a96c9',
+          950: '#a30a96c9',
+        },
 
       },
       fontFamily: {
