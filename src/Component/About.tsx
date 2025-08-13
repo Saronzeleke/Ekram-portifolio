@@ -1,7 +1,7 @@
 import React from 'react';
 import { Award, Target, Users, TrendingUp } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+import type { Variants } from 'framer-motion';
 const About: React.FC = () => {
   const highlights = [
     {
@@ -37,18 +37,32 @@ const About: React.FC = () => {
     }
   };
 
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.5,
-        ease: "easeOut"
-      }
-    }
-  };
+  // const itemVariants = {
+  //   hidden: { y: 20, opacity: 0 },
+  //   visible: {
+  //     y: 0,
+  //     opacity: 1,
+  //     transition: {
+  //       duration: 0.5,
+  //       ease: "easeOut"
+  //     }
+  //   }
+  // };
+// In About.tsx
 
+
+const itemVariants: Variants = {
+  hidden: { y: 50, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 20
+    }
+  }
+};
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
