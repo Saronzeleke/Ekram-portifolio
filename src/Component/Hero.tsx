@@ -154,7 +154,7 @@ const Hero: React.FC = () => {
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
               >
                 <img
-                  src="public\h.jpg"
+                  src="C:\Users\admin\Ekram-portifolio\dist\h.jpg"
                   alt="Professional Profile"
                   className="w-full h-full object-cover"
                 />
