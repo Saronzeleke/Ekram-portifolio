@@ -79,32 +79,19 @@ To change content or media:
 - Adjust styling in `src/styles` or by modifying component code.
 
 If you require further customization or wish to add new features, please contact the developer.
-
----
-
-## Deployment
-
-To publish updates online, you can use platforms such as:
-
-- **GitHub Pages**
-- **Vercel**
-- **Netlify**
-
 For step-by-step guidance on deployment, or to request changes, contact your developer.
 
----
+# Sharonkuye369@gmail.com
+# Sakuzas  telegram
 
-## Support
 
-If you have any questions, need updates, or wish to report issues, please contact the developer directly through the agreed-upon communication channel or by opening an issue in this repository.
 
----
 
 ## License
 
 This project is custom-built for the customer.  
 All rights reserved.  
-Please do not duplicate or redistribute without permission.
+Please do not duplicate or redistribute without  # Saron zeleke permission.
 
 ---
 
