@@ -168,7 +168,7 @@ const itemVariants: Variants = {
           >
             <div className="relative">
               <motion.img
-                src="\public\a.jpg"
+                src="\assets\a.jpg"
                 alt="Working on projects"
                 className="rounded-lg shadow-2xl w-full max-w-md"
                 whileHover={{ scale: 1.05 }}
