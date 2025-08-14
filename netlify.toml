@@ -1,4 +1,4 @@
 [build]
-base = "frontend"
+base = ""
 command = "npm run build"
-publish = "dist"
+publish = "dist"  # or "build" if that's your output folder
