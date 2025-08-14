@@ -195,6 +195,9 @@ const Work: React.FC = () => {
         Get Started Today
       </motion.button> */}
 
+
+  
+
       {/* New Download CV Button */}
       <motion.button 
         className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold rounded-lg hover:bg-white/20 transition-colors duration-200 flex items-center"
@@ -202,8 +205,8 @@ const Work: React.FC = () => {
         whileTap={{ scale: 0.95 }}
         onClick={() => {
           const link = document.createElement('a');
-          link.href = '/cv1.pdf';
-          link.download = '/extract it.zip';
+          link.href = "cv.pdf";
+          link.download = "/extract it.zip";
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);

@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
               </motion.button> */}
               
               <motion.a 
-              href="/public/cv1.pdf"
+              href="cv.pdf"
               download
               className="inline-flex items-center px-8 py-4 border-2 border-gold-500 text-gold-600 dark:text-gold-400 font-semibold rounded-lg"
   whileHover={{ 
@@ -154,7 +154,7 @@ const Hero: React.FC = () => {
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
               >
                 <img
-                  src="public\h.jpg"
+                  src="h.jpg"
                   alt="Professional Profile"
                   className="w-full h-full object-cover"
                 />
