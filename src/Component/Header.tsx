@@ -1,6 +1,6 @@
 import React from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
-import useTheme from '../hooks/useTheme';
+import {useTheme} from '../hooks/useTheme';
 
 import { motion } from 'framer-motion';
 
